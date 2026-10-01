@@ -63,19 +63,25 @@
       line-height: 1.2;
     }
 
+    /* Ajuste en el marco de la fotografía */
     .photo-frame {
       width: 100%;
-      max-height: 380px;
+      height: 380px; /* Se fijó la altura para que ocupe todo el espacio */
       border-radius: 15px;
       overflow: hidden;
       margin-bottom: 25px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
+    /* Propiedades para centrar y encuadrar la imagen perfectamente */
     .photo-frame img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: cover; /* Mantiene la proporción sin deformar */
+      object-position: center; /* Asegura que el centro de la foto sea el foco */
       display: block;
     }
 
@@ -101,15 +107,13 @@
   </style>
 </head>
 <body>
-
   <div class="container">
     <span class="badge">Un día especial</span>
     <h1>¡Feliz Cumpleaños, Mi Amor! ❤️</h1>
 
     <!-- Marco de la Fotografía -->
     <div class="photo-frame">
-      <!-- Cambia 'foto_juntos.jpg' por el nombre exacto de tu archivo de imagen -->
-      <img src="https://i.ibb.co/pB3w6HQK/487069439-4305701559664825-6914722589307620774-n.jpg" alt="Juntos hasta el final">
+      <img src="https://i.ibb.co/HT0b8PZ4/487144138-4306855286216119-8110994035428247481-n.jpg" alt="Juntos hasta el final">
     </div>
 
     <!-- Dedicatoria -->
@@ -120,9 +124,7 @@
     </div>
 
     <div class="heart">✨ 💖 ✨</div>
-
     <p class="footer-text">Con todo mi amor, para ti.</p>
   </div>
-
 </body>
 </html>
