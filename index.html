@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz Cumpleaños, Mi Amor!</title>
+  <style>
+    :root {
+      --bg-color: #fdfbf7;
+      --card-bg: #ffffff;
+      --primary-color: #e63946;
+      --text-color: #2b2d42;
+      --subtext-color: #6c757d;
+      --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: var(--card-bg);
+      max-width: 600px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 35px 25px;
+      text-align: center;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #ffe5e8;
+      color: var(--primary-color);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    .photo-frame {
+      width: 100%;
+      max-height: 380px;
+      border-radius: 15px;
+      overflow: hidden;
+      margin-bottom: 25px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .message {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: var(--text-color);
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+
+    .heart {
+      color: var(--primary-color);
+      font-size: 1.5rem;
+      margin: 15px 0;
+    }
+
+    .footer-text {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--subtext-color);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <span class="badge">Un día especial</span>
+    <h1>¡Feliz Cumpleaños, Mi Amor! ❤️</h1>
+
+    <!-- Marco de la Fotografía -->
+    <div class="photo-frame">
+      <!-- Cambia 'foto_juntos.jpg' por el nombre exacto de tu archivo de imagen -->
+      <img src="foto_juntos.jpg" alt="Nosotros juntos">
+    </div>
+
+    <!-- Dedicatoria -->
+    <div class="message">
+      <p>Hoy celebro tu vida, tu sonrisa y cada momento hermoso que compartimos juntos. Gracias por iluminar mis días con tu alegría y por ser mi persona favorita en el mundo.</p>
+      <br>
+      <p>Deseo que este nuevo año esté lleno de sueños cumplidos, risas infinitas y muchos momentos más a mi lado. Te amo con todo mi corazón.</p>
+    </div>
+
+    <div class="heart">✨ 💖 ✨</div>
+
+    <p class="footer-text">Con todo mi amor, para ti.</p>
+  </div>
+
+</body>
+</html>
